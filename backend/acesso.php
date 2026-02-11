@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $idade = $_POST["idade"];
 
-    if ($idade < 16) {
+    if ($idade <    16) {
 
         echo "Acesso proibido";
 
